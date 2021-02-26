@@ -80,7 +80,7 @@ ZK-Rollups 在交易的最终性方面有较大优势，提现时间也缩短了
 
 ## 15. ZKSwap的系统如何工作
 
-ZKSwap 系统由链上智能合约，链下ZKSwap Server，零知识证明系统和前端用户界面组成。
+ZKSwap 系统由链上智能合约，链下ZKSwap Server，零知识证明系统和前端用户界面组成。具体工作细节如下
 ![ZKSwap系统](https://zks.org/images/blog/11/1.png)
 
 **ZKSwap 智能合约**
