@@ -34,6 +34,6 @@ ZKSwap 的第一版扩容方案 ZKSpeed 基础架构结合了 ZK-rollup 和 Vali
 
 ## 3.ZKSwap design spec
 
-首先感谢ZKSync，它为ERC20代币交易提供了ZK-Rollup的框架。ZKSwap是在Ethereum上使用ZK -Rollups并基于PLONK证明系统的L2代币交易协议。ZKSwap设计规范详细描述了ZKSwap协议以及与ZKSync的区别。
+首先感谢ZKSync，它为ERC20代币交易提供了ZK-Rollup的框架。ZKSwap是在Ethereum上使用ZK -Rollups并基于PLONK证明系统的L2代币交易协议。ZKSwap设计规范详细描述了ZKSwap协议以及与ZKSync的区别。
 
 [ZKSwap开发设计规范](https://github.com/l2labs/zkswap-spec)
