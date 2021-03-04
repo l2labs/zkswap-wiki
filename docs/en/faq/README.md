@@ -109,12 +109,12 @@ are the key hub connecting on-chain and off-chain.
 
 **ZKSwap Layer 2 Server**
 
-The ZKSwap server is the module that processes all transactions off-chain. The ZKSwap server can use the WebSocket to interact with the user, and monitor transactions on the Ethereum blockchain. All valid transaction requests will be put into the ZKSwap mem pool and processed by the Swap Engine. The transaction types in the mem pool are the same as the transaction types of Uniswap. The Block Proposer will roll up the transactions and generate a new block. The State Keeper will update the status of all tokens on Layer 2. The State Keeper will send the state to the Commiter, which is responsible for communicating with the Prove Server, obtain the proof of the corresponding transaction, and finally send the state and the corresponding
+The ZKSwap server is the module that processes all transactions off-chain. The ZKSwap server can use the WebSocket to interact with the user, and monitor transactions on the Ethereum blockchain. All valid transaction requests will be put into the ZKSwap mem pool and processed by the Swap Engine. The transaction types in the mem pool are the same as the transaction types of Uniswap. The Block Proposer will roll up the transactions and generate a new block. The State Keeper will update the status of all tokens on Layer 2. The State Keeper will send the state to the Commiter, which is responsible for communicating with the Prove Server, obtain the proof of the corresponding transaction, and finally send the state and the corresponding
 SNARK proof via Ethereum sender to the ZKSwap smart contract on-chain.
 
 **Plonk Zero-knowledge Proof System**
 
-ZKSwap’s zero-knowledge proof system adopts a distributed architecture and uses the latest zero-knowledge proof
+ZKSwap’s zero-knowledge proof system adopts a distributed architecture and uses the latest zero-knowledge proof
 algorithm PLONK to generate proofs. The Prove Server supports multiple
 Provers. Multiple Provers actively query the proof tasks in the Prove Server and send them back to the Prover Server after generating the proof. PLONK’s global trust setup only needs to be generated once, and the circuit can be greatly reused within a certain range, reducing the threshold for using zero-knowledge proofs.
 
