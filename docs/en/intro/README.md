@@ -1,9 +1,9 @@
-### 1.1 What is ZKSwap
+# What is ZKSwap
 
 
 ZKSwap is a token swap protocol based on Automated Market Maker (AMM). Through ZK-Rollup technology, the full set of uniswap functions are realized in Layer-2, while providing unlimited scalability and privacy. ZKSwap __offers ultra-high throughput Swap infrastucture and transactions without Gas Fees to liquidity providers and traders.__
 	
-#### ZKSwap's Features
+## ZKSwap's Features
 
 At the moment, most decentralized exchange DEXs such as Uniswap are different from centralized exchanges such as Huobi and OKEx. They automate market makers, replace manual quotations with established algorithms, and even remove centralized matching and clearing, while eliminating the market maker in the transaction. Thus, they can provide users with highly secure and confidential transactions.
 
@@ -20,7 +20,7 @@ Hindered by TPS limitations on Ethereum, traditional Dex such as Uniswap has obv
 **Real time transaction**: All transactions on ZKSwap are transfered to Layer-2 and are valid for real-time transction, users DO NOT need to wait for the confirmation time of a block.
 
 
-#### Whitepaper
+## Whitepaper
 
 [Whitepaper](https://github.com/l2labs/zkswap-whitepaper/blob/master/zkswap_en.pdf)
 
