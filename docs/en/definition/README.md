@@ -1,6 +1,6 @@
-##Encyclopedia
+# Encyclopedia
 
-###1.Definition
+## 1.Definition
 
 L1: Short for Layer-1, generally considered as the main chain of Ethereum.
 
@@ -36,7 +36,7 @@ Swap： After the liquidity pool is created and liquidity is injected, users who
 
 
 
-###2.Layer 2 Concept Introduction
+## 2.Layer 2 Concept Introduction
 
 DeFi and NFT applications on Ethereum provide numerous revenue opportunities for the market, but as cost increases, the industry has begun to turn its attention to retail investors. As DeFi projects become more active, the load of contemporary protocols is very limited. Therefore, many Layer 2 protocols have emerged. The main goal of these protocols is to reduce the number of transactions on the Ethereum blockchain by transferring transaction activities to other places, while still using the main chain as a guarantee of security. For example, **state channels, side chains, Plasma, and Rollup**. The core idea of all Layer 2 solutions is to allow multiple participants to interact securely in some way, without the need to publish transactions on the main chain (ie Layer 1), but to a certain extent, the Ethereum network is still used as arbitration to ensure safety. Different Layer 2 solutions have different characteristics and advantages and disadvantages. 
 
